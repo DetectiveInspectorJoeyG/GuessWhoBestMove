@@ -60,7 +60,7 @@ function question(player1,player2,playerTurn,allGameStates) {
     }
     return {"winrate":winrate,"question":questionAsked,"possibleChoices":possibleChoices}
 }
-
+//Joey G was here ;) 
 
 function mkstr(i){
     return (i).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false})

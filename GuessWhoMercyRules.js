@@ -66,7 +66,7 @@ function question(player1,player2,playerTurn,allGameStates) {
             newName2 = MakeGameStateName(otherPlayer.windows,secondFuture,otherPlayer.p)
         }
         newWinRate2 = allGameStates[newName2][player.p]
-        odds2=firstFuture/player.windows;
+        odds2=secondFuture/player.windows;
 
         combinedWinRate = newWinRate1*odds1+newWinRate2*odds2;
         if (combinedWinRate > winrate){
